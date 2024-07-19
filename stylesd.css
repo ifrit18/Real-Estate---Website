@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(130, 0, 0, 0.3), rgba(130, 0, 0, 0.3)), url(images/pexels-andrea-piacquadio-3760069.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.titlu {
+    color: #ffffff;
+    text-align: left;
+    padding-right: 100px;
+    font-size: 40px;
+
+}
+
+nav ul {
+    list-style: none;
+    width: auto;
+    text-align: right;
+    margin-right: 60px;
+}
+
+nav ul li ul.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+nav ul li:hover ul.dropdown {
+    display: block;
+}
+
+nav ul li ul.dropdown li {
+    margin-top: 5px;
+}
+
+nav ul li ul.dropdown li a {
+    color: rgba(89, 8, 8, 255);
+    font-size: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+
+}
+
+
+.dropdown li {
+    display: inline-block;
+
+}
+
+.dropdown li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown li a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover ul {
+    display: block;
+}
+
+footer {
+    background-color: rgba(89, 8, 8, 255);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.social-media1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media1 a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.social-media1 a i {
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: b;
+}
+
+.price {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+.price-per-meter,
+.loan-info {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.overview,
+.features {
+    list-style-type: none;
+    padding: 0;
+}
+
+.overview li,
+.features li {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+p {
+    line-height: 1.6;
+}

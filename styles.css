@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(130, 0, 0, 0.3), rgba(130, 0, 0, 0.3)), url(images/pexels-andrea-piacquadio-3760069.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.titlu {
+    color: #ffffff;
+    text-align: left;
+    padding-right: 100px;
+    font-size: 40px;
+
+}
+
+nav ul {
+    list-style: none;
+    width: auto;
+    text-align: right;
+    margin-right: 60px;
+}
+
+nav ul li ul.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+nav ul li:hover ul.dropdown {
+    display: block;
+}
+
+nav ul li ul.dropdown li {
+    margin-top: 5px;
+}
+
+nav ul li ul.dropdown li a {
+    color: rgba(89, 8, 8, 255);
+    font-size: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+
+}
+
+
+.dropdown li {
+    display: inline-block;
+
+}
+
+.dropdown li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown li a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover ul {
+    display: block;
+}
+
+footer {
+    background-color: rgba(89, 8, 8, 255);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.social-media1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media1 a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.social-media1 a i {
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+
+.container {
+    display: flex;
+}
+
+.left {
+    padding-top: 20px;
+    color: #fff;
+    flex: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-right: 20px;
+    font-size: 27px;
+}
+
+.title {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: inherit;
+    margin-bottom: 10px;
+}
+
+.social-icons i {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+    float: right;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.descriere1,
+.descriere2 {
+    font-size: 25px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+
+}
+
+input {
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: rgba(89, 8, 8, 255);
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #fff;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: rgba(89, 8, 8, 255);
+    margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input:focus-within {
+    outline: none;
+    border-color: rgba(89, 8, 8, 255);
+    border-width: 3px;
+}
+
+textarea:focus-within {
+    outline: none;
+    border-color: rgba(89, 8, 8, 255);
+    border-width: 3px;
+}
+
+button {
+    background-color: rgba(89, 8, 8, 255);
+    border-radius: 20px;
+    border-color: rgba(89, 8, 8, 255);
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+
+.containerv {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.property-listings {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: rgba(89, 8, 8, 255);
+
+
+}
+
+.property {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.swiper-container {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-left: 0px;
+}
+    
+
+.swiper-container .image {
+    display: none;
+}
+
+.swiper-container .image img {
+    width: 100%; /* Ensure images take full width of their container */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    height: auto; /* Allow the height to adjust proportionally based on the width */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    overflow: hidden;
+    
+}
+
+
+.swiper-container .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.swiper-container .button a {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    user-select: none;
+}
+
+.swiper-container .button .prev {
+    border-radius: 0 5px 5px 0;
+}
+
+.swiper-container .button .next {
+    border-radius: 5px 0 0 5px;
+}
+
+.dots {
+    text-align: center;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5px 10px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #bbb;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.active,
+.dot:hover {
+    background: rgba(130, 0, 0, 0.3);
+}
+
+
+.property-details {
+    padding: 10px;
+    width: 70%;
+}
+
+.property-details h2 {
+    margin-top: 0;
+}
+
+.property-details p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgba(89, 8, 8, 255);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgba(130, 0, 0, 0.3);
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: rgba(89, 8, 8, 255);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: rgba(89, 8, 8, 255);
+}
+
+.containerd {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .price {
+    font-size: 24px;
+    color: #007BFF;
+  }
+  
+  .price-per-meter, .loan-info {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .overview, .features {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .overview li, .features li {
+    margin-bottom: 5px;
+    line-height: 1.6;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
